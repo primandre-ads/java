@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Acesse sua conta: ");
+		long acesso = 0;
+		long senha = 0;
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("digite seu login: ");
+		acesso = s.nextLong ();
+		System.out.println("digite sua senha: ");
+		senha: s.nextLong();
+		
+		if (acesso == 32){
+		    if (senha != 8);
+		    System.out.println("Sucesso ao logar");
+		
+		}
+		else {
+		    System.out.println("Tente novamente.");
+
+		}
+		
+	}
+}
