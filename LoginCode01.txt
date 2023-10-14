@@ -10,11 +10,12 @@ public class Main
 		Scanner s = new Scanner(System.in);
 		System.out.println("digite seu login: ");
 		acesso = s.nextLong ();
-		System.out.println("digite sua senha: ");
-		senha: s.nextLong();
+		if (acesso == 32);
 		
-		if (acesso == 32){
-		    if (senha != 8);
+		System.out.println("digite sua senha: ");
+		senha = s.nextLong();
+		
+		if (senha == 8){
 		    System.out.println("Sucesso ao logar");
 		
 		}
